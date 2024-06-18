@@ -8,7 +8,7 @@ class AppColors {
   static const link = Colors.blueAccent;
   static const tabSecondary = Colors.blueAccent;
   static const accent = Colors.cyan;
-  static final bottom = const Color.fromARGB(255, 235, 255, 241);
+  static final bottom = const Color.fromARGB(255, 235, 253, 255);
   static const background = Colors.white;
   static final subLine = Colors.blue.shade700;
 
@@ -36,7 +36,7 @@ final appTheme = ThemeData(
   useMaterial3: true,
   fontFamily: Fonts.body.fontFamily,
   colorScheme: ColorScheme.fromSwatch(
-    primarySwatch: AppColors.primary,
+    primarySwatch: AppColors.accent,
     backgroundColor: AppColors.background,
   ),
   // textTheme: const TextTheme(
