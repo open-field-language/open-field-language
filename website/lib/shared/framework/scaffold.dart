@@ -43,7 +43,7 @@ class _AppScaffoldState extends State<AppScaffold>
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    bool hamburger = screenWidth < 600;
+    bool hamburger = screenWidth < 780;
 
     return new DefaultTextStyle(
       style: new TextStyle(
@@ -109,7 +109,7 @@ class _AppScaffoldState extends State<AppScaffold>
                 const SizedBox(height: 24),
                 widget.screen.content(context),
                 const SizedBox(height: Sizes.paddingAfterBody),
-                Container(height: 600, color: AppColors.primary),
+                Container(height: 600, color: AppColors.bottom),
                 Text('${defaultTargetPlatform.name}, $_version'),
               ],
             ),

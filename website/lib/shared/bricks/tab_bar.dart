@@ -9,7 +9,7 @@ class AppTabBar extends StatelessWidget {
     required this.controller,
     required this.tabs,
     this.onTap,
-    this.indicatorColor = AppColors.primary,
+    this.indicatorColor = AppColors.accent,
     this.textStyle,
     this.showDivider = true,
   });
