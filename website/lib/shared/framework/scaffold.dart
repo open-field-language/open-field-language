@@ -110,11 +110,13 @@ class _AppScaffoldState extends State<AppScaffold>
                 widget.screen.content(context),
                 const SizedBox(height: Sizes.paddingAfterBody),
                 Container(
+                  width: screenWidth,
                   height: 600,
                   color: AppColors.bottom,
-                ),
-                Text(
-                  '${defaultTargetPlatform.name}, $_version',
+                  alignment: Alignment.bottomCenter,
+                  child: Text(
+                    '${defaultTargetPlatform.name}, $_version',
+                  ),
                 ),
               ],
             ),
