@@ -6,7 +6,6 @@ class AppColors {
   static const border = text;
   static final logo = accent;
   static const link = Colors.blueAccent;
-  static const tabSecondary = Colors.blueAccent;
   static const accent = Colors.cyan;
   static final bottom = const Color.fromARGB(255, 235, 253, 255);
   static const background = Colors.white;

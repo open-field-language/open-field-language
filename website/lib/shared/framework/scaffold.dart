@@ -109,14 +109,12 @@ class _AppScaffoldState extends State<AppScaffold>
                 const SizedBox(height: 24),
                 widget.screen.content(context),
                 const SizedBox(height: Sizes.paddingAfterBody),
-                Expanded(
-                  child: Container(
-                    height: 600,
-                    color: AppColors.bottom,
-                    child: Expanded(
-                      child: Text('${defaultTargetPlatform.name}, $_version'),
-                    ),
-                  ),
+                Container(
+                  height: 600,
+                  color: AppColors.bottom,
+                ),
+                Text(
+                  '${defaultTargetPlatform.name}, $_version',
                 ),
               ],
             ),
