@@ -4,8 +4,8 @@ import 'package:ofl_web/shared/framework/app_structure.dart';
 import 'screens/contribute.dart';
 import 'screens/rules.dart';
 import 'shared/design/theme.dart';
-import 'screens/home.dart';
-import 'screens/community.dart';
+import 'screens/home/home.dart';
+import 'screens/community/community.dart';
 import 'shared/framework/screen.dart';
 import 'shared/framework/scaffold.dart';
 

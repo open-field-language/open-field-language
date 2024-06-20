@@ -96,30 +96,31 @@ class _AppScaffoldState extends State<AppScaffold>
           backgroundColor: AppColors.background,
         ),
         body: SingleChildScrollView(
-          child: Center(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                SizedBox(height: 14),
-                AppText(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              SizedBox(height: 14),
+              Padding(
+                padding: const EdgeInsets.only(left: 32),
+                child: AppText(
                   'Open (aka Knowing) Field defined by practitioners and researchers.',
                   style: AppTextStyles.subLine(context),
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.left,
                 ),
-                const SizedBox(height: 24),
-                widget.screen.content(context),
-                const SizedBox(height: Sizes.paddingAfterBody),
-                Container(
-                  width: screenWidth,
-                  height: 600,
-                  color: AppColors.bottom,
-                  alignment: Alignment.bottomCenter,
-                  child: Text(
-                    '${defaultTargetPlatform.name}, $_version',
-                  ),
+              ),
+              const SizedBox(height: 24),
+              Center(child: widget.screen.content(context)),
+              const SizedBox(height: Sizes.paddingAfterBody),
+              Container(
+                width: screenWidth,
+                height: 600,
+                color: AppColors.bottom,
+                alignment: Alignment.bottomCenter,
+                child: Text(
+                  '${defaultTargetPlatform.name}, $_version',
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
         ),
       ),

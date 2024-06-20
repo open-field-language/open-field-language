@@ -3,13 +3,13 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppColors {
   static const text = Color.fromARGB(255, 41, 4, 63);
-  static const border = text;
+  static final border = divider;
   static final logo = accent;
   static const link = Colors.blueAccent;
   static const accent = Colors.cyan;
   static final bottom = const Color.fromARGB(255, 235, 253, 255);
   static const background = Colors.white;
-  static final subLine = Colors.blue.shade700;
+  static final subLine = Colors.amber.shade900;
 
   static final divider = Colors.grey.shade200;
 }

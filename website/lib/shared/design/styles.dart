@@ -53,6 +53,14 @@ abstract class ButtonStyles {
 }
 
 final markdownStyleSheet = MarkdownStyleSheet(
+  p: TextStyle(
+    fontSize: FontSizes.body,
+    color: AppColors.text,
+  ),
+  listBullet: const TextStyle(
+    fontSize: FontSizes.body,
+    fontWeight: FontWeight.bold,
+  ),
   a: const TextStyle(
     color: AppColors.link,
     decoration: TextDecoration.underline,
@@ -92,18 +100,12 @@ final markdownStyleSheet = MarkdownStyleSheet(
   //   fontSize: FontSizes.body - 2,
   //   fontWeight: FontWeight.bold,
   // ),
-  p: TextStyle(
-    fontSize: FontSizes.body,
-    color: AppColors.text,
-  ),
+
   // tableBody: const TextStyle(
   //   fontSize: FontSizes.body,
   // ),
   // tableHead: const TextStyle(
   //   fontSize: FontSizes.body,
   //   fontWeight: FontWeight.bold,
-  // ),
-  // listBullet: const TextStyle(
-  //   fontSize: FontSizes.body,
   // ),
 );

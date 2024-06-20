@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../shared/bricks/layout.dart';
+import '../../shared/bricks/layout.dart';
 
-import '../shared/bricks/image.dart';
-import '../shared/bricks/text.dart';
-import '../shared/framework/screen.dart';
+import '../../shared/bricks/image.dart';
+import '../../shared/bricks/text.dart';
+import '../../shared/framework/screen.dart';
 
 final communityScreen = AppScreen((_) => const _Screen());
 
@@ -23,7 +23,7 @@ TODO
                       '''),
         ),
         SizedBox(width: 20),
-        AppImage(280, 'images/team/team.jpg'),
+        AppImage(280, 'images/community/community.jpg'),
         AppColumn(
           child: AppMarkdown(
             '''
