@@ -1,8 +1,8 @@
 ---
 name: Suggest a change.
-about: Suggest a change to language or website.
+about: Suggest a change to the language or website.
 title: ''
-labels: ''
+labels: change
 assignees: ''
 
 ---
