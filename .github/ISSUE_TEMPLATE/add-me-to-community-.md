@@ -1,6 +1,6 @@
 ---
 name: Add me to community.
-about: You would like to be added to [community](https://open-field-language.com/).
+about: You would like to be added to community (https://open-field-language.com/).
 title: Add me to community.
 labels: community
 assignees: ''

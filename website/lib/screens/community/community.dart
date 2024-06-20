@@ -4,7 +4,6 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../shared/bricks/fab.dart';
 import '../../shared/bricks/layout.dart';
 
-import '../../shared/bricks/image.dart';
 import '../../shared/bricks/text.dart';
 import '../../shared/framework/screen.dart';
 
@@ -23,8 +22,9 @@ class _Screen extends StatelessWidget {
           width: 600,
         ),
         Fab(
-          callback: () => launchUrl(Uri.parse('')),
-          label: 'Join Community',
+          callback: () => launchUrl(Uri.parse(
+              'https://github.com/open-field-language/open-field-language/issues/new?assignees=&labels=community&projects=&template=add-me-to-community-.md&title=Add+me+to+community.')),
+          label: 'Join',
         ),
       ],
     );
