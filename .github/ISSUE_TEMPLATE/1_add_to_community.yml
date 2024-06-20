@@ -1,7 +1,7 @@
 name: Request to be added to community
 description: You would like to be added to [community]().
 title: 'Add me to community.'
-labels: ['community: add']
+labels: ['community']
 body:
   - type: input
     id: name
@@ -30,3 +30,9 @@ body:
       description: Describe yourself.
     validations:
       required: true
+  - type: markdown
+    id: comments
+    attributes:
+      label: Maybe add comments.
+    validations:
+      required: false
