@@ -1,0 +1,7 @@
+name: Suggest a change
+description: I want to suggest a change to language or website.
+labels: ['design doc']
+body:
+  - type: markdown
+    validations:
+      required: true
