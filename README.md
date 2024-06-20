@@ -9,7 +9,8 @@ Feel free to use it as a scaffold/boilerplate for a Flutter web site.
 ## Contribute
 
 Contributions are appreciated.
-See [the rules]() and [how to contribute]().
+See [the rules](https://open-field-language.com/#/rules)
+and [how to contribute](https://open-field-language.com/#/contribute).
 
 ## Web Site
 
