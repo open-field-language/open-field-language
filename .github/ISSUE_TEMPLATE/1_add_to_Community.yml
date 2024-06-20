@@ -1,0 +1,32 @@
+name: Request to be added to community
+description: You would like to be added to [community]().
+title: 'Add me to community.'
+labels: ['community: add']
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+    validations:
+      required: true
+  - type: input
+    id: public_link
+    attributes:
+      label: Public link
+      description: Link to a public profile or project.
+    validations:
+      required: false
+  - type: input
+    id: private_channel
+    attributes:
+      label: Messaging channel
+      description: Channel for direct messages.
+    validations:
+      required: false
+  - type: textarea
+    id: identification
+    attributes:
+      label: Who you are?
+      description: Describe yourself.
+    validations:
+      required: true
