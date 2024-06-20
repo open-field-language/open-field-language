@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ofl_web/screens/community/_content.dart';
+import 'package:url_launcher/url_launcher.dart';
+import '../../shared/bricks/fab.dart';
 import '../../shared/bricks/layout.dart';
 
 import '../../shared/bricks/image.dart';
@@ -16,20 +19,12 @@ class _Screen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         AppColumn(
-          width: 400,
-          child: AppMarkdown('''
-# Our Team
-TODO
-                      '''),
+          child: AppMarkdown('$text1 $text2'),
+          width: 600,
         ),
-        SizedBox(width: 20),
-        AppImage(280, 'images/community/community.jpg'),
-        AppColumn(
-          child: AppMarkdown(
-            '''
-TODO
-''',
-          ),
+        Fab(
+          callback: () => launchUrl(Uri.parse('')),
+          label: 'Join Community',
         ),
       ],
     );

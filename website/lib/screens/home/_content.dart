@@ -59,21 +59,21 @@ const text2 = '''
 
 Other descriptions of the field:
 
-[Elena Veselago introduction to constellations (in Russian, auto-translatable)](https://youtu.be/Gt-YTgDL61A?si=dwWgoW885PO6uEAo)
+* [Introduction to constellations by Elena Veselago (in Russian, auto-translatable)](https://youtu.be/Gt-YTgDL61A?si=dwWgoW885PO6uEAo)
 
-[Knowing field by Leslie](https://www.conviviumconstellations.com/what-is-the-knowing-field/)
+* [Knowing field by Leslie](https://www.conviviumconstellations.com/what-is-the-knowing-field/)
 
-[Systems, Fields and Streams by The Inner Process by ](https://www.theinnerprocess.com/family-constellations-systems-fields-and-streams.html)
+* [Systems, Fields and Streams by The Inner Process](https://www.theinnerprocess.com/family-constellations-systems-fields-and-streams.html)
 
-[Knowing Field by The Constellation Approach in Belmont, MA](https://www.faustfamilyconstellations.com/trusting-knowing-field/)
+* [Knowing Field by The Constellation Approach in Belmont, MA](https://www.faustfamilyconstellations.com/trusting-knowing-field/)
 
-[Morphic Fields, Psychic Dogs and Other Mysteries by John Horgan](https://www.scientificamerican.com/blog/cross-check/scientific-heretic-rupert-sheldrake-on-morphic-fields-psychic-dogs-and-other-mysteries/)
+* [Morphic Fields, Psychic Dogs and Other Mysteries by John Horgan](https://www.scientificamerican.com/blog/cross-check/scientific-heretic-rupert-sheldrake-on-morphic-fields-psychic-dogs-and-other-mysteries/)
 
-[Knowing Field by Family Constellations in Australia](https://familyconstellations.com.au/the-knowing-field-in-family-constellations-q-rch/)
+* [Knowing Field by Family Constellations in Australia](https://familyconstellations.com.au/the-knowing-field-in-family-constellations-q-rch/)
 
-[Morphic Resonance and Morphic Fields by Rupert Sheldrake](https://www.sheldrake.org/research/morphic-resonance/introduction)
+* [Morphic Resonance and Morphic Fields by Rupert Sheldrake](https://www.sheldrake.org/research/morphic-resonance/introduction)
 
-[Knowing Field by Urban Healers of LA](https://www.urbanhealersofla.com/constellations-workshops-work-in-the-knowing-field/)
+* [Knowing Field by Urban Healers of LA](https://www.urbanhealersofla.com/constellations-workshops-work-in-the-knowing-field/)
 
-[Knowing Field by Dr. Gaurav Deka](https://www.youtube.com/watch?v=gfZuSj_PsIg)
+* [Knowing Field by Dr. Gaurav Deka](https://www.youtube.com/watch?v=gfZuSj_PsIg)
 ''';

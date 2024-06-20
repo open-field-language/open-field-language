@@ -103,7 +103,7 @@ class _AppScaffoldState extends State<AppScaffold>
               Padding(
                 padding: const EdgeInsets.only(left: 32),
                 child: AppText(
-                  'Open (aka Knowing) Field defined by practitioners and researchers.',
+                  'Open Field defined by practitioners and researchers.',
                   style: AppTextStyles.subLine(context),
                   textAlign: TextAlign.left,
                 ),

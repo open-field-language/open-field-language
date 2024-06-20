@@ -10,8 +10,6 @@ import '_content.dart';
 
 late final homeScreen = AppScreen((_) => const _Screen());
 
-const _teamLink = 'team';
-
 class _Screen extends StatelessWidget {
   const _Screen();
 
