@@ -69,7 +69,7 @@ const text2 = '''
 &nbsp;
 
 
-## Other descriptions of the field
+## Other descriptions of the field:
 
 * [Introduction to constellations by Elena Veselago (in Russian, auto-translatable)](https://youtu.be/Gt-YTgDL61A?si=dwWgoW885PO6uEAo)
 

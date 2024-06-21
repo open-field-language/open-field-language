@@ -14,12 +14,10 @@ class AppText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return SelectableText(
       text,
       style: style ?? AppTextStyles.normal(context),
       textAlign: textAlign,
-      softWrap: true,
-      overflow: TextOverflow.visible,
     );
   }
 }

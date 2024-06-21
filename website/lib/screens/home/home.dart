@@ -19,6 +19,8 @@ class _Screen extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Wrap(
+          crossAxisAlignment: WrapCrossAlignment.center,
+          alignment: WrapAlignment.center,
           children: [
             AppColumn(child: AppMarkdown(text1)),
             AppImage(280, 'images/home/lavender.jpg'),
