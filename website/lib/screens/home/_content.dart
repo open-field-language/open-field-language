@@ -30,7 +30,7 @@ and other researchers.
 const text2 = '''
 ## 1. The field:
 
-    The open field (or just the field here) is one
+    The field is one
     more natural element that can move and transfer energy,
     like air, water, fire, light, gravity or electromagnetism.
 
