@@ -1,4 +1,6 @@
 const text1 = '''
+# Welcome to Open Field Language!
+
 The concept of open field (aka knowing field, collective unconscious,
 morphic fields, biological fields, developmental fields,
 positional fields, morphogenetic fields
