@@ -4,13 +4,14 @@
 
 This repo contains source code for [Open Field Language](http://open-field-language.com).
 
-Feel free to use it as a scaffold/boilerplate/template for a Flutter web site.
+Feel free to use it as a scaffold/boilerplate/template for
+your Flutter web site.
 
 ## Contribute
 
 Contributions are appreciated.
 See [the rules](https://open-field-language.com/#/rules)
-and [how to contribute](https://open-field-language.com/#/contribute).
+and [how to participate](https://open-field-language.com/#/participate).
 
 ## Code style
 
@@ -45,5 +46,4 @@ dart run flutter_launcher_icons
 
 Read more at: https://pub.dev/packages/flutter_launcher_icons
 
-Symbols used for icon: ≽≼
-
+Symbols used for the logo: ≽≼

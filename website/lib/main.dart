@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ofl_web/shared/framework/app_structure.dart';
 
-import 'screens/contribute/contribute.dart';
+import 'screens/participate/participate.dart';
 import 'screens/rules/rules.dart';
 import 'shared/design/theme.dart';
 import 'screens/home/home.dart';
@@ -13,7 +13,7 @@ final _screens = <String, AppScreen>{
   AppRoutes.home: homeScreen,
   AppRoutes.community: communityScreen,
   AppRoutes.rules: rulesScreen,
-  AppRoutes.contribute: contributeScreen,
+  AppRoutes.participate: participateScreen,
 };
 
 void main() async {

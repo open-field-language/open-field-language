@@ -5,7 +5,7 @@ class AppRoutes {
   static const String home = '/';
   static const String community = '/community';
   static const String rules = '/rules';
-  static const String contribute = '/contribute';
+  static const String participate = '/contribute';
 }
 
 const kExperiments = bool.fromEnvironment('experiments', defaultValue: false);
@@ -25,7 +25,7 @@ const appMenu = [
   AppMenuItem(AppRoutes.home, 'Home'),
   AppMenuItem(AppRoutes.community, 'Community'),
   AppMenuItem(AppRoutes.rules, 'Rules'),
-  AppMenuItem(AppRoutes.contribute, 'Contribute'),
+  AppMenuItem(AppRoutes.participate, 'Participate'),
 ];
 
 void push(String route, BuildContext context) {

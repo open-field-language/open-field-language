@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:ofl_web/shared/framework/app_structure.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../design/styles.dart';
@@ -27,11 +28,17 @@ class AppMarkdown extends StatelessWidget {
   const AppMarkdown(
     this.content, {
     super.key,
-    this.onTapLink = const {},
   });
 
   final String content;
-  final Map<String, VoidCallback> onTapLink;
+
+  static const _inAppRedirectSign = '#';
+
+  /// Converts relative URLs (from AppRoutes) to string to be referenced in markup text.
+  static String redirect(String url) {
+    assert(url.startsWith('/'));
+    return '#$url';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -42,12 +49,14 @@ class AppMarkdown extends StatelessWidget {
       shrinkWrap: true,
 
       onTapLink: (text, url, title) async {
-        final onTap = onTapLink[url];
-        if (onTap != null) {
-          onTap();
+        if (url == null) return;
+        if (url.startsWith(_inAppRedirectSign)) {
+          // Remove the sign.
+          url = url.substring(1);
+          push(url, context);
           return;
         }
-        if (url != null) await launchUrl(Uri.parse(url));
+        await launchUrl(Uri.parse(url));
       },
       styleSheet: markdownStyleSheet(context),
     );

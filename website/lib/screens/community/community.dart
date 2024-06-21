@@ -22,8 +22,11 @@ class _Screen extends StatelessWidget {
           width: 600,
         ),
         Fab(
-          callback: () => launchUrl(Uri.parse(
-              'https://github.com/open-field-language/open-field-language/issues/new?assignees=&labels=community&projects=&template=add-me-to-community-.md&title=Add+me+to+community.')),
+          callback: () => launchUrl(
+            Uri.parse(
+              'https://github.com/open-field-language/open-field-language/issues/new?assignees=&labels=community&projects=&template=add-me-to-community-.md&title=Add+me+to+community.',
+            ),
+          ),
           label: 'Join',
         ),
       ],
