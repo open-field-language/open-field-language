@@ -10,9 +10,11 @@ through centuries.
 While the existence of the field is still hypothetical,
 the concept is applied in many non-hypothetical practices.
 
-Here we are declaring terminology of the field theory,
+Here, we are declaring terminology of the field theory,
 in less hand-waving and more scientific way,
 to enable more awareness, discussions and research around it.
+
+
 The initial version of the terminology is inspired by materials
 of the [Open Field School][open-field-school], built on studies
 of [Elena Veselago][elena-veselago],

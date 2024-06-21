@@ -1,3 +1,5 @@
+import 'package:ofl_web/shared/bricks/links.dart';
+
 const text1 = '''
 # Community
 
@@ -7,4 +9,4 @@ and want to be listed here:
 ''';
 
 const text2 = '''
-* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](https://t.me/polina_314159)''';
+* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](${AppLinks.polinaTelegram})''';

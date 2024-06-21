@@ -5,7 +5,7 @@ class AppRoutes {
   static const String home = '/';
   static const String community = '/community';
   static const String rules = '/rules';
-  static const String participate = '/contribute';
+  static const String participate = '/participate';
 }
 
 const kExperiments = bool.fromEnvironment('experiments', defaultValue: false);
