@@ -26,40 +26,48 @@ and other researchers.
 ''';
 
 const text2 = '''
-1. The field:
+## 1. The field:
 
     The open field (or just the field here) is one
     more natural element that can move and transfer energy,
     like air, water, fire, light, gravity or electromagnetism.
 
-2. The field streams:
+## 2. The field streams:
 
-    **a)** There are streams in the field, the same way as in air or water.
+    1. There are streams in the field, the same way as in air
+    or water.
 
-    **b)** The field streams move a certain form of energy,
+    2. The field streams move a certain form of energy,
     which can be converted to other forms of energy,
     the same way as water or air streams.
 
-    **c)** Euclidean distance and material objects do not affect
+    3. Euclidean distance and material objects do not affect
     the field streams, the same way as light does not
     affect air streams.
 
-3. Field and feelings:
+## 3. Field and feelings:
 
-    **a)** The field streams initiate feelings of humans and animals, the same way as wind initiates a sailboat movement.
+    1. The field streams initiate feelings of humans and
+    animals, the same way as wind initiates a sailboat movement.
 
-    **b)** Feelings are not possible without the field streams.
+    2. Feelings are not possible without the field streams.
 
-    **c)** The field streams can transfer qualities, the same way as air can transfer scent. The qualities can be described as feelings, colors, tastes etc. depending on the context.
+    3. The field streams can transfer qualities, the same way
+    as air can transfer scent. The qualities can be described
+    as feelings, colors, tastes etc. depending on the context.
 
-    **d)** Humans and other creatures can influence direction, energy and qualities of field streams, the same way as rocks and animals can influence water and air streams.
+    4. Humans and other creatures can influence direction,
+    energy and qualities of field streams, the same way as
+    rocks and animals can influence water and air streams.
 
-    **e)** People are connected (or “see” each other or interact) through the field, when their attention is directed to the same subject.
+    5. People are connected (or “see” each other or interact)
+    through the field, when their attention is directed to
+    the same subject.
 
 &nbsp;
 
 
-Other descriptions of the field:
+## Other descriptions of the field
 
 * [Introduction to constellations by Elena Veselago (in Russian, auto-translatable)](https://youtu.be/Gt-YTgDL61A?si=dwWgoW885PO6uEAo)
 

@@ -11,7 +11,7 @@ class AppColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: width ?? Sizes.columnWidth,
+      width: width ?? Sizes.textColumnWidth,
       child: child,
     );
   }

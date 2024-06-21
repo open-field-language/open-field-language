@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import '../shared/bricks/layout.dart';
+import '../../shared/bricks/layout.dart';
 
-import '../shared/bricks/image.dart';
-import '../shared/bricks/text.dart';
-import '../shared/framework/screen.dart';
+import '../../shared/bricks/image.dart';
+import '../../shared/bricks/text.dart';
+import '../../shared/framework/screen.dart';
 
 final contributeScreen = AppScreen((_) => const _Screen());
 

@@ -15,7 +15,7 @@ class AppColors {
 }
 
 abstract class Sizes {
-  static const columnWidth = 500.0;
+  static const textColumnWidth = 610.0;
   static const paddingAfterBody = 70.0;
   static const border = 2.0;
 }

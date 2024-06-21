@@ -4,13 +4,22 @@
 
 This repo contains source code for [Open Field Language](http://open-field-language.com).
 
-Feel free to use it as a scaffold/boilerplate for a Flutter web site.
+Feel free to use it as a scaffold/boilerplate/template for a Flutter web site.
 
 ## Contribute
 
 Contributions are appreciated.
 See [the rules](https://open-field-language.com/#/rules)
 and [how to contribute](https://open-field-language.com/#/contribute).
+
+## Code style
+
+We follow https://dart.dev/effective-dart and rules specific for this project:
+
+### Leading underscore in file name.
+
+Differentiate files that are not referenced by code outside of file's folder
+by leading '_'.
 
 ## Web Site
 

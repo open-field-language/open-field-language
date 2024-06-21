@@ -40,6 +40,7 @@ class AppMarkdown extends StatelessWidget {
       physics: ScrollPhysics(), // To prevent scroll on drag in mobile Safary.
       data: content,
       shrinkWrap: true,
+
       onTapLink: (text, url, title) async {
         final onTap = onTapLink[url];
         if (onTap != null) {
@@ -48,7 +49,7 @@ class AppMarkdown extends StatelessWidget {
         }
         if (url != null) await launchUrl(Uri.parse(url));
       },
-      styleSheet: markdownStyleSheet,
+      styleSheet: markdownStyleSheet(context),
     );
   }
 }

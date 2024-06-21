@@ -52,60 +52,70 @@ abstract class ButtonStyles {
   }
 }
 
-final markdownStyleSheet = MarkdownStyleSheet(
-  p: TextStyle(
-    fontSize: FontSizes.body,
-    color: AppColors.text,
-  ),
-  listBullet: const TextStyle(
-    fontSize: FontSizes.body,
-    fontWeight: FontWeight.bold,
-  ),
-  a: const TextStyle(
-    color: AppColors.link,
-    decoration: TextDecoration.underline,
-    decorationColor: AppColors.link,
-  ),
-  // blockquote: const TextStyle(
-  //   color: Colors.grey,
-  //   fontStyle: FontStyle.italic,
-  // ),
-  // code: const TextStyle(
-  //   backgroundColor: Colors.grey,
-  //   color: Colors.white,
-  // ),
-  h1: TextStyle(
-    fontSize: FontSizes.body + 8,
-    fontWeight: FontWeight.bold,
-    fontFamily: Fonts.headers.fontFamily,
-  ),
-  h2: TextStyle(
-    fontSize: FontSizes.body + 4,
-    fontWeight: FontWeight.bold,
-    fontFamily: Fonts.headers.fontFamily,
-  ),
-  // h3: const TextStyle(
-  //   fontSize: FontSizes.body + 4,
-  //   fontWeight: FontWeight.bold,
-  // ),
-  // h4: const TextStyle(
-  //   fontSize: FontSizes.body + 2,
-  //   fontWeight: FontWeight.bold,
-  // ),
-  // h5: const TextStyle(
-  //   fontSize: FontSizes.body,
-  //   fontWeight: FontWeight.bold,
-  // ),
-  // h6: const TextStyle(
-  //   fontSize: FontSizes.body - 2,
-  //   fontWeight: FontWeight.bold,
-  // ),
-
-  // tableBody: const TextStyle(
-  //   fontSize: FontSizes.body,
-  // ),
-  // tableHead: const TextStyle(
-  //   fontSize: FontSizes.body,
-  //   fontWeight: FontWeight.bold,
-  // ),
-);
+MarkdownStyleSheet markdownStyleSheet(BuildContext context) =>
+    MarkdownStyleSheet(
+      blockSpacing: null,
+      // blockquoteAlign: WrapAlignment.spaceBetween,
+      blockquoteDecoration: null,
+      blockquotePadding: null,
+      checkbox: null,
+      // codeblockAlign: WrapAlignment.spaceBetween,
+      codeblockDecoration: null,
+      codeblockPadding: null,
+      del: AppTextStyles.normal(context),
+      em: AppTextStyles.normal(context),
+      // h1Align: WrapAlignment.spaceBetween,
+      // h2Align: WrapAlignment.spaceBetween,
+      // h3Align: WrapAlignment.spaceBetween,
+      // h4Align: WrapAlignment.spaceBetween,
+      // h5Align: WrapAlignment.spaceBetween,
+      // h6Align: WrapAlignment.spaceBetween,
+      h1Padding: null,
+      h2Padding: null,
+      h3Padding: null,
+      h4Padding: null,
+      h5Padding: null,
+      h6Padding: null,
+      horizontalRuleDecoration: null,
+      img: null,
+      listBulletPadding: null,
+      listIndent: null,
+      // orderedListAlign: WrapAlignment.spaceEvenly,
+      p: AppTextStyles.normal(context),
+      listBullet: AppTextStyles.normal(context),
+      pPadding: null,
+      strong: null,
+      superscriptFontFeatureTag: null,
+      tableBorder: null,
+      tableHeadAlign: null,
+      tableCellsPadding: null,
+      tableColumnWidth: null,
+      // tableVerticalAlignment: TableCellVerticalAlignment.middle,
+      // textAlign: WrapAlignment.spaceBetween,
+      textScaler: null,
+      // unorderedListAlign: WrapAlignment.spaceBetween,
+      tableCellsDecoration: null,
+      a: const TextStyle(
+        color: AppColors.link,
+        decoration: TextDecoration.underline,
+        decorationColor: AppColors.link,
+      ),
+      blockquote: AppTextStyles.normal(context),
+      code: AppTextStyles.normal(context),
+      h1: TextStyle(
+        fontSize: FontSizes.body + 8,
+        fontWeight: FontWeight.bold,
+        fontFamily: Fonts.headers.fontFamily,
+      ),
+      h2: TextStyle(
+        fontSize: FontSizes.body + 4,
+        fontWeight: FontWeight.bold,
+        fontFamily: Fonts.headers.fontFamily,
+      ),
+      h3: AppTextStyles.normal(context),
+      h4: AppTextStyles.normal(context),
+      h5: AppTextStyles.normal(context),
+      h6: AppTextStyles.normal(context),
+      tableBody: AppTextStyles.normal(context),
+      tableHead: AppTextStyles.normal(context),
+    );

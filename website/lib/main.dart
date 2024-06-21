@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ofl_web/shared/framework/app_structure.dart';
 
-import 'screens/contribute.dart';
-import 'screens/rules.dart';
+import 'screens/contribute/contribute.dart';
+import 'screens/rules/rules.dart';
 import 'shared/design/theme.dart';
 import 'screens/home/home.dart';
 import 'screens/community/community.dart';
