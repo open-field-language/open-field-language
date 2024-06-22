@@ -29,7 +29,7 @@ them to your email or get them in your ‘Inbox’ in GitHub.
 
 Create or join [a discussion](${AppLinks.discussion}).
 
-## Reference
+## Share
 
 Increase awareness about the language searchability of this site by
 referencing it on your website or in a public social media post,
