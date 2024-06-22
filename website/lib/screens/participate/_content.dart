@@ -9,8 +9,8 @@ There is a number of options to participate.
 
 ## Join
 
-To join community [post to telegram channel](AppLinks.polinaTelegram), create
-[an issue](${AppLinks.issueCommunity}) or [pull request](${AppLinks.pullRequest}).
+To join community [post to the telegram channel](${AppLinks.telegram}), create
+[an issue](${AppLinks.issueCommunity}) or open [pull request](${AppLinks.pullRequest}).
 
 Provide name, public representation, channel to contact you directly,
 and who you are (1-2 lines).
