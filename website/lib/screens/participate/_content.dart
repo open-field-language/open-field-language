@@ -9,7 +9,7 @@ There is a number of options to participate.
 
 ## Join
 
-To join community [post to the telegram channel](${AppLinks.telegram}), create
+To join community either [post to the telegram channel](${AppLinks.telegram}) or create
 [an issue](${AppLinks.issueCommunity}) or open [pull request](${AppLinks.pullRequest}).
 
 Provide name, public representation, channel to contact you directly,
