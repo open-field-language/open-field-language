@@ -9,7 +9,11 @@ There is a number of options to participate.
 
 ## Join
 
-[Join the community.](${AppMarkdown.redirect(AppRoutes.community)})
+To join community [post to telegram channel](AppLinks.polinaTelegram), create
+[an issue](${AppLinks.issueCommunity}) or [pull request](${AppLinks.pullRequest}).
+
+Provide name, public representation, channel to contact you directly,
+and who you are (1-2 lines).
 
 ## Subscribe
 
@@ -37,7 +41,7 @@ sharing it with people who may be curious about the field or project.
 Suggest an edit for the language, to make it more concise, precise and easier to understand.
 
 For simple obvious edits create
-[an issue](https://github.com/open-field-language/open-field-language/issues/new?assignees=&labels=change&projects=&template=suggest-a-change-.md&title=)
+[an issue](${AppLinks.issue})
 or, if you have enough skills,
 [pull request](https://github.com/open-field-language/open-field-language/pulls).
 
@@ -45,6 +49,6 @@ For more complicated edits, start [a discussion](${AppLinks.discussion}).
 
 ## Contact
 
-For public questions start [a discussion](${AppLinks.discussion}), for private questions
-[telegram Polina](${AppLinks.polinaTelegram}).
+For questions either start [a discussion](${AppLinks.discussion}), or post to
+[telegram](${AppLinks.telegram}).
 ''';

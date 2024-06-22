@@ -9,4 +9,4 @@ and want to be listed here:
 ''';
 
 const text2 = '''
-* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](${AppLinks.polinaTelegram})''';
+* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](${AppLinks.telegram})''';
