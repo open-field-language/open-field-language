@@ -1,12 +1,27 @@
 import 'package:ofl_web/shared/bricks/links.dart';
 
-const text1 = '''
+enum CommunityTab {
+  people('People'),
+  organizations('Organizations'),
+  ;
+
+  final String name;
+
+  const CommunityTab(this.name);
+}
+
+const headerText = '''
 # Community
 
-This is a live list of people who agree with the language,
-use the concept of the field in their personal and/or professional life,
-and want to be listed here:
+This is list of people and organizations, who
+use the concept of the field in their personal and professional life.
 ''';
 
-const text2 = '''
-* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](${AppLinks.telegram})''';
+const tabText = {
+  CommunityTab.people: '''
+* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](${AppLinks.telegram})
+''',
+  CommunityTab.organizations: '''
+There is no organizations yet.
+''',
+};

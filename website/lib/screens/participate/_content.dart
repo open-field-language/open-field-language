@@ -1,6 +1,4 @@
 import 'package:ofl_web/shared/bricks/links.dart';
-import 'package:ofl_web/shared/bricks/text.dart';
-import 'package:ofl_web/shared/framework/app_structure.dart';
 
 final text1 = '''
 # Participate
