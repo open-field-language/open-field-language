@@ -1,4 +1,4 @@
-import 'package:ofl_web/shared/bricks/links.dart';
+import 'package:ofl_web/shared/framework/links.dart';
 
 enum CommunityTab {
   people('People'),
