@@ -11,17 +11,18 @@ enum CommunityTab {
 }
 
 const headerText = '''
-# Community
+# Community (at the forming stage)
 
-This is list of people and organizations, who
-use the concept of the field in their personal and professional life.
+This is list of people and organizations that use the concept of field.
 ''';
 
 const tabText = {
   CommunityTab.people: '''
-* [Polina Cherkasova](http://happy-creek.com/#/team), engineer, field practitioner, mom, [t.me](${AppLinks.telegram})
+* [Elena Veselago](https://constellationintensive.com/elena-veselago/), director of Open Field Institute, e.veselago@gmail.com
+* [Polina Cherkasova](http://polina-c.com), engineer, field practitioner, mom, [t.me](${AppLinks.telegram})
 ''',
   CommunityTab.organizations: '''
-There is no organizations yet.
+* [Open Field Institute](https://openfield.ru/)
+* [Constellation Intensive](https://constellations.ru/)
 ''',
 };
