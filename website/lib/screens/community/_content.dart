@@ -13,7 +13,7 @@ enum CommunityTab {
 const headerText = '''
 # Community (at the forming stage)
 
-This is list of people and organizations that use the concept of field.
+This is list of people and organizations who use the concept of field.
 ''';
 
 const tabText = {
