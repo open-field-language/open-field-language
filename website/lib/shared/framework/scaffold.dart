@@ -9,7 +9,7 @@ import 'app_structure.dart';
 import 'screen.dart';
 import '../design/styles.dart';
 
-const _version = 'version 1';
+const _version = 'version 2';
 
 class AppScaffold extends StatefulWidget {
   const AppScaffold(
@@ -37,7 +37,7 @@ class _AppScaffoldState extends State<AppScaffold>
 
     _menuTabController = TabController(length: appMenu.length, vsync: this);
     _menuTabController.index =
-        appMenu.indexWhere((e) => e.route == widget.route);
+        appMenu.indexWhere((e) => e.routes.contains(widget.route));
   }
 
   @override
@@ -141,7 +141,7 @@ class _Menu extends StatelessWidget {
       controller: controller,
       tabs: appMenu.map((e) => Tab(text: e.label)).toList(),
       onTap: (i) {
-        final route = appMenu[i].route;
+        final route = appMenu[i].routes[0];
         push(route, context);
       },
     );
@@ -162,7 +162,7 @@ class _Hamburger extends StatelessWidget {
           return PopupMenuItem<String>(
             value: 'menuItem',
             child: _MenuItem(
-              route: e.route,
+              route: e.routes[0],
               selected: route,
               displayName: e.label,
             ),

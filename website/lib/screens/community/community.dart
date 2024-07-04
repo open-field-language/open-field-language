@@ -9,10 +9,14 @@ import '../../shared/bricks/text.dart';
 import '../../shared/design/theme.dart';
 import '../../shared/framework/screen.dart';
 
-final communityScreen = AppScreen((_) => const _Screen());
+final communityScreen = AppScreen((_) => const _Screen(CommunityTab.people));
+final communityOrgsScreen =
+    AppScreen((_) => const _Screen(CommunityTab.organizations));
 
 class _Screen extends StatefulWidget {
-  const _Screen();
+  const _Screen(this.tab);
+
+  final CommunityTab tab;
 
   @override
   State<_Screen> createState() => _ScreenState();
@@ -26,6 +30,7 @@ class _ScreenState extends State<_Screen> with SingleTickerProviderStateMixin {
     super.initState();
     _controller =
         TabController(length: CommunityTab.values.length, vsync: this);
+    _controller.index = CommunityTab.values.indexOf(widget.tab);
   }
 
   @override
@@ -43,7 +48,10 @@ class _ScreenState extends State<_Screen> with SingleTickerProviderStateMixin {
           AppTabBar(
             indicatorColor: AppColors.tabSecondary,
             controller: _controller,
-            onTap: (value) => setState(() {}),
+            onTap: (value) {
+              final tab = CommunityTab.values[value];
+              push(tab.route, context);
+            },
             tabs: CommunityTab.values.map((t) => Tab(text: t.name)).toList(),
           ),
           AppMarkdown(tabText[CommunityTab.values[_controller.index]]!),

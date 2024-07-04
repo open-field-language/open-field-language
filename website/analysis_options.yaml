@@ -11,3 +11,4 @@ linter:
     - comment_references
     - unawaited_futures
     - require_trailing_commas
+    - unrelated_type_equality_checks

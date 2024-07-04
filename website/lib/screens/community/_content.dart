@@ -1,13 +1,16 @@
 import 'package:ofl_web/shared/framework/links.dart';
 
+import '../../shared/framework/app_structure.dart';
+
 enum CommunityTab {
-  people('People'),
-  organizations('Organizations'),
+  people(name: 'People', route: AppRoutes.community),
+  organizations(name: 'Organizations', route: AppRoutes.communityOrgs),
   ;
 
   final String name;
+  final String route;
 
-  const CommunityTab(this.name);
+  const CommunityTab({required this.name, required this.route});
 }
 
 const headerText = '''
@@ -22,7 +25,8 @@ const tabText = {
 * [Polina Cherkasova](http://polina-c.com), engineer, field practitioner, mom, [t.me](${AppLinks.telegram})
 ''',
   CommunityTab.organizations: '''
-* [Open Field Institute](https://openfield.ru/)
-* [Constellation Intensive](https://constellations.ru/)
+* [Constellation Intensive (Russian)](https://constellations.ru/)
+* [Open Field Institute (Russian)](https://openfield.ru/)
+* [TERRAPIA, School of Transformation (English)](https://terrapia.org/)
 ''',
 };
