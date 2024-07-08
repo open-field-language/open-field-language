@@ -26,7 +26,8 @@ const tabText = {
 * [Gaurav Deka](https://www.drgauravdeka.com/), systemic constellation facilitator, therapist
 * [Polina Cherkasova](http://polina-c.com), engineer, field practitioner and researcher
 * [Rupert Sheldrake](https://www.sheldrake.org/), biologist, author of the theory of morphic fields
-* [Taya Shopen](https://www.facebook.com/taya.shopen), systemic constellation facilitator, swaddler
+* [Taya Shopen](https://www.facebook.com/taya.shopen), systemic constellation facilitator,
+the author of [Earthybirth](https://earthybirth.com/) swaddling ceremony, the practitioner of image-emotions therapy
 ''',
   PracticesTab.organizations: '''
 * [Constellation Intensive (in Russian)](https://constellations.ru/)
