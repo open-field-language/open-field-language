@@ -11,7 +11,7 @@ There is a number of options to participate.
 ## Add a Practice
 
 To add a practice to [the list](${AppMarkdown.redirect(AppRoutes.practices)}),
-either [post to the telegram channel](${AppLinks.telegram}) or create
+either request it in [the telegram channel](${AppLinks.telegram}) or create
 [an issue](${AppLinks.issuePractices}) or open [pull request](${AppLinks.pullRequest}).
 
 Provide name, public representation, channel to contact you directly,
