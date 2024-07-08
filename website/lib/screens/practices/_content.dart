@@ -16,7 +16,7 @@ enum PracticesTab {
 final headerText = '''
 # Practices (at the forming stage)
 
-This is list of people and organizations who rely their practices or researches on
+This is the list of people and organizations who rely their practices or researches on
 the concept of [the field](${AppMarkdown.redirect(AppRoutes.home)}).
 ''';
 
