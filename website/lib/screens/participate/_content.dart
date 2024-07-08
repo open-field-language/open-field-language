@@ -1,14 +1,18 @@
 import 'package:ofl_web/shared/framework/links.dart';
 
+import '../../shared/bricks/text.dart';
+import '../../shared/framework/app_structure.dart';
+
 final text1 = '''
 # Participate
 
 There is a number of options to participate.
 
-## Join
+## Add a Practice
 
-To join community either [post to the telegram channel](${AppLinks.telegram}) or create
-[an issue](${AppLinks.issueCommunity}) or open [pull request](${AppLinks.pullRequest}).
+To add a practice to [the list](${AppMarkdown.redirect(AppRoutes.practices)}),
+either [post to the telegram channel](${AppLinks.telegram}) or create
+[an issue](${AppLinks.issuePractices}) or open [pull request](${AppLinks.pullRequest}).
 
 Provide name, public representation, channel to contact you directly,
 and who you are (1-2 lines).

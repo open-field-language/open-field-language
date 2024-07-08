@@ -30,7 +30,7 @@ class _Screen extends StatelessWidget {
         SizedBox(height: 30),
         Fab(
           callback: () => push(AppRoutes.practices, context),
-          label: 'Join Community',
+          label: 'Check out Practices',
         ),
       ],
     );

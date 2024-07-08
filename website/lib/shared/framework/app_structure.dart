@@ -5,7 +5,6 @@ class AppRoutes {
   static const String home = '/';
   static const String practices = '/practices';
   static const String practicesOrgs = '/practices/orgs';
-  static const String rules = '/rules';
   static const String participate = '/participate';
 }
 
@@ -25,7 +24,6 @@ class AppMenuItem {
 const appMenu = [
   AppMenuItem([AppRoutes.home], 'Home'),
   AppMenuItem([AppRoutes.practices, AppRoutes.practicesOrgs], 'Practices'),
-  AppMenuItem([AppRoutes.rules], 'Rules'),
   AppMenuItem([AppRoutes.participate], 'Participate'),
 ];
 

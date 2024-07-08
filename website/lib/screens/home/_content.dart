@@ -1,4 +1,7 @@
-const text1 = '''
+import 'package:ofl_web/shared/bricks/text.dart';
+import 'package:ofl_web/shared/framework/app_structure.dart';
+
+final text1 = '''
 # Welcome to Open Field Language!
 
 The concept of open field (aka knowing field, collective unconscious,
@@ -10,14 +13,14 @@ through centuries, as traditional sciences are not enough to explain
 observations.
 
 While the existence of the field is still hypothetical,
-the concept is applied in many non-hypothetical practices.
+the concept is applied in [many non-hypothetical practices](${AppMarkdown.redirect(AppRoutes.practices)}).
 
 Here, we are declaring terminology of the field theory,
 in concise, simple, less hand-waving and more scientific way,
 similar to Newton laws.
 
-We do it to make the field concept more visible, and
-to enable more engagement, discussions and research around it.
+We do it to enable more engagement, discussions and research around
+the concept of the field.
 
 The initial version of the terminology is created based on materials
 of the [Open Field School][open-field-school], built on studies

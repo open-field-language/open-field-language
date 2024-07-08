@@ -2,18 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:ofl_web/shared/framework/app_structure.dart';
 
 import 'screens/participate/participate.dart';
-import 'screens/rules/rules.dart';
 import 'shared/design/theme.dart';
 import 'screens/home/home.dart';
-import 'screens/community/community.dart';
+import 'screens/practices/practices.dart';
 import 'shared/framework/screen.dart';
 import 'shared/framework/scaffold.dart';
 
 final _screens = <String, AppScreen>{
   AppRoutes.home: homeScreen,
-  AppRoutes.practices: communityScreen,
-  AppRoutes.practicesOrgs: communityOrgsScreen,
-  AppRoutes.rules: rulesScreen,
+  AppRoutes.practices: practicesScreen,
+  AppRoutes.practicesOrgs: practicesOrgsScreen,
   AppRoutes.participate: participateScreen,
 };
 

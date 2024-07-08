@@ -1,0 +1,41 @@
+import 'package:ofl_web/shared/bricks/text.dart';
+
+import '../../shared/framework/app_structure.dart';
+
+enum PracticesTab {
+  people(name: 'People', route: AppRoutes.practices),
+  organizations(name: 'Organizations', route: AppRoutes.practicesOrgs),
+  ;
+
+  final String name;
+  final String route;
+
+  const PracticesTab({required this.name, required this.route});
+}
+
+final headerText = '''
+# Practices (at the forming stage)
+
+This is list of people and organizations who rely their practices or researches on
+the concept of [the field](${AppMarkdown.redirect(AppRoutes.home)}).
+''';
+
+const tabText = {
+  PracticesTab.people: '''
+* [Elena Veselago](https://constellationintensive.com/elena-veselago/), director of Open Field Institute
+* [Gaurav Deka](https://www.drgauravdeka.com/), systemic constellation facilitator, therapist
+* [Polina Cherkasova](http://polina-c.com), engineer, field practitioner and researcher
+* [Rupert Sheldrake](https://www.sheldrake.org/), biologist, author of the theory of morphic fields
+* [Taya Shopen](https://www.facebook.com/taya.shopen), systemic constellation facilitator, swaddler
+''',
+  PracticesTab.organizations: '''
+* [Constellation Intensive (in Russian)](https://constellations.ru/)
+* [Convivium Constellations](https://www.conviviumconstellations.com/)
+* [Family Constellations (Australia)](https://familyconstellations.com.au/)
+* [Faust Family Constellations](https://www.faustfamilyconstellations.com/)
+* [International Association for Systemic Constellations (ISCA)](https://isca-network.org)
+* [Open Field Institute (in Russian)](https://openfield.ru/)
+* [TERRAPIA, School of Transformation](https://terrapia.org/)
+* [Urban Healers of LA](https://www.urbanhealersofla.com/)
+''',
+};
