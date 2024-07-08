@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 /// Not using enum, because some routes may be dynamic.
 class AppRoutes {
   static const String home = '/';
-  static const String community = '/community';
-  static const String communityOrgs = '/community/orgs';
+  static const String practices = '/practices';
+  static const String practicesOrgs = '/practices/orgs';
   static const String rules = '/rules';
   static const String participate = '/participate';
 }
@@ -24,7 +24,7 @@ class AppMenuItem {
 
 const appMenu = [
   AppMenuItem([AppRoutes.home], 'Home'),
-  AppMenuItem([AppRoutes.community, AppRoutes.communityOrgs], 'Community'),
+  AppMenuItem([AppRoutes.practices, AppRoutes.practicesOrgs], 'Practices'),
   AppMenuItem([AppRoutes.rules], 'Rules'),
   AppMenuItem([AppRoutes.participate], 'Participate'),
 ];

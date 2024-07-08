@@ -16,11 +16,10 @@ Here, we are declaring terminology of the field theory,
 in concise, simple, less hand-waving and more scientific way,
 similar to Newton laws.
 
-We do it to to show level of adoption
-and to enable more awareness, discussions and research around
-the concepts.
+We do it to make the field concept more visible, and
+to enable more engagement, discussions and research around it.
 
-The initial version of the terminology is inspired by materials
+The initial version of the terminology is created based on materials
 of the [Open Field School][open-field-school], built on studies
 of [Elena Veselago][elena-veselago],
 [Bert Hellinger][bert-hellinger], [Rupert Sheldrake][rupert-sheldrake]

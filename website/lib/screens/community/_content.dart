@@ -1,10 +1,11 @@
+import 'package:ofl_web/shared/bricks/text.dart';
 import 'package:ofl_web/shared/framework/links.dart';
 
 import '../../shared/framework/app_structure.dart';
 
 enum CommunityTab {
-  people(name: 'People', route: AppRoutes.community),
-  organizations(name: 'Organizations', route: AppRoutes.communityOrgs),
+  people(name: 'People', route: AppRoutes.practices),
+  organizations(name: 'Organizations', route: AppRoutes.practicesOrgs),
   ;
 
   final String name;
@@ -13,10 +14,11 @@ enum CommunityTab {
   const CommunityTab({required this.name, required this.route});
 }
 
-const headerText = '''
+final headerText = '''
 # Community (at the forming stage)
 
-This is list of people and organizations who use the concept of field.
+This is list of people and organizations who build practices on top of
+the concept of [the field](${AppMarkdown.redirect(AppRoutes.home)}).
 ''';
 
 const tabText = {
