@@ -10,7 +10,7 @@ There is a number of options to participate.
 
 ## Add a Practice
 
-To add a practice to [the list](${AppMarkdown.redirect(AppRoutes.practices)}),
+To add a practice to [the list](${AppMarkdown.redirect(AppRoutes.practicesPeople)}),
 either request it in [the telegram channel](${AppLinks.telegram}) or create
 [an issue](${AppLinks.issuePractices}) or open [pull request](${AppLinks.pullRequest}).
 
@@ -51,6 +51,6 @@ For more complicated edits, start [a discussion](${AppLinks.discussion}).
 
 ## Contact
 
-For questions either start [a discussion](${AppLinks.discussion}), or post to
-[telegram](${AppLinks.telegram}).
+For questions start [a discussion](${AppLinks.discussion}), post to
+[telegram](${AppLinks.telegram}) or contact [polina-c](http://polina-c.com).
 ''';

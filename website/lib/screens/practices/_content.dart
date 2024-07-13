@@ -3,7 +3,8 @@ import 'package:ofl_web/shared/bricks/text.dart';
 import '../../shared/framework/app_structure.dart';
 
 enum PracticesTab {
-  people(name: 'People', route: AppRoutes.practices),
+  methodologies(name: 'Methodologies', route: AppRoutes.practicesMethodologies),
+  people(name: 'People', route: AppRoutes.practicesPeople),
   organizations(name: 'Organizations', route: AppRoutes.practicesOrgs),
   ;
 
@@ -14,13 +15,20 @@ enum PracticesTab {
 }
 
 final headerText = '''
-# Practices (at the forming stage)
+# Practices (the list is forming)
 
-This is the list of people and organizations who rely their practices or researches on
+This is the list of methodologies, people and organizations who rely their practices
+or researches on
 the concept of [the field](${AppMarkdown.redirect(AppRoutes.home)}).
 ''';
 
 const tabText = {
+  PracticesTab.methodologies: '''
+## Field therapy
+
+## Constellations
+
+''',
   PracticesTab.people: '''
 * [Elena Veselago](https://constellationintensive.com/elena-veselago/), director of Open Field Institute
 * [Gaurav Deka](https://www.drgauravdeka.com/), systemic constellation facilitator, therapist

@@ -10,8 +10,9 @@ import 'shared/framework/scaffold.dart';
 
 final _screens = <String, AppScreen>{
   AppRoutes.home: homeScreen,
-  AppRoutes.practices: practicesScreen,
+  AppRoutes.practicesPeople: practicesScreen,
   AppRoutes.practicesOrgs: practicesOrgsScreen,
+  AppRoutes.practicesMethodologies: practicesMethodologiesScreen,
   AppRoutes.participate: participateScreen,
 };
 

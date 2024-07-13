@@ -36,8 +36,7 @@ class _AppScaffoldState extends State<AppScaffold>
     _titleTabController = TabController(length: 1, vsync: this);
 
     _menuTabController = TabController(length: appMenu.length, vsync: this);
-    _menuTabController.index =
-        appMenu.indexWhere((e) => e.routes.contains(widget.route));
+    _menuTabController.index = menuIndexByRoute(widget.route);
   }
 
   @override

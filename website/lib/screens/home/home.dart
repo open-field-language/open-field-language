@@ -29,7 +29,7 @@ class _Screen extends StatelessWidget {
         AppColumn(child: AppMarkdown(text2)),
         SizedBox(height: 30),
         Fab(
-          callback: () => push(AppRoutes.practices, context),
+          callback: () => push(AppRoutes.practicesPeople, context),
           label: 'Check out Practices',
         ),
       ],

@@ -13,7 +13,7 @@ through centuries, as traditional sciences are not enough to explain
 observations.
 
 While the existence of the field is still hypothetical,
-the concept is applied in [many non-hypothetical practices](${AppMarkdown.redirect(AppRoutes.practices)}).
+the concept is applied in [many non-hypothetical practices](${AppMarkdown.redirect(AppRoutes.practicesPeople)}).
 
 Here, we are declaring terminology of the field theory,
 in concise, simple, less hand-waving and more scientific way,
@@ -71,6 +71,21 @@ const text2 = '''
   5. People are connected (or “see” each other or interact)
   through the field, when their attention is directed to
   the same subject.
+
+## 4. Field and identity:
+
+  1. All Live creatures (humans, animals, plants, bacteria and so on)
+  have an **energy body**, a structure in the field that can
+  preserve energy and transform energy streams.
+
+  2. There are energy bodies in the field, which do not have
+  a physical body.
+
+  3. A conception connects an energy body without physical
+  body to a new physical body.
+
+  4. The death of a physical body release the energy body from its
+  physical body.
 
 &nbsp;
 

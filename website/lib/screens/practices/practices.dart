@@ -9,6 +9,8 @@ import '../../shared/bricks/text.dart';
 import '../../shared/design/theme.dart';
 import '../../shared/framework/screen.dart';
 
+final practicesMethodologiesScreen =
+    AppScreen((_) => const _Screen(PracticesTab.methodologies));
 final practicesScreen = AppScreen((_) => const _Screen(PracticesTab.people));
 final practicesOrgsScreen =
     AppScreen((_) => const _Screen(PracticesTab.organizations));
