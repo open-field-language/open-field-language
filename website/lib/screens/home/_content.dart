@@ -78,13 +78,13 @@ const text2 = '''
   have an **energy body**, a structure in the field that can
   preserve energy and transform energy streams.
 
-  2. There are energy bodies in the field, which do not have
-  a physical body.
+  2. Some energy bodies in the field have
+  a physical body, and some do not have one.
 
-  3. A conception connects an energy body without physical
+  3. A **conception** connects an energy body without physical
   body to a new physical body.
 
-  4. The death of a physical body release the energy body from its
+  4. The **death** of a physical body release the energy body from its
   physical body.
 
 &nbsp;
