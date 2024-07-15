@@ -14,6 +14,7 @@ final _screens = <String, AppScreen>{
   AppRoutes.practicesOrgs: practicesOrgsScreen,
   AppRoutes.practicesMethodologies: practicesMethodologiesScreen,
   AppRoutes.participate: participateScreen,
+  AppRoutes.events: eventsScreen,
 };
 
 void main() async {

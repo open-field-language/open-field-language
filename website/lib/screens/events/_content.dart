@@ -17,8 +17,10 @@ the concept is applied in [many non-hypothetical practices](${AppMarkdown.redire
 
 Here, we are declaring terminology of the field theory,
 in concise, simple, less hand-waving and more scientific way,
-similar to Newton laws, to enable more engagement, discussions and research around
-the concept.
+similar to Newton laws.
+
+We do it to enable more engagement, discussions and research around
+the concept of the field.
 
 The initial version of the terminology is created based on materials
 of the [Open Field School][open-field-school], built on studies
@@ -82,7 +84,7 @@ const text2 = '''
   3. A **conception** connects an energy body without physical
   body to a new physical body.
 
-  4. The **death** of a physical body releases the energy body from its
+  4. The **death** of a physical body release the energy body from its
   physical body.
 
 &nbsp;

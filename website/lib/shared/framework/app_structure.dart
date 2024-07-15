@@ -7,6 +7,7 @@ class AppRoutes {
   static const String practicesOrgs = '/practices/orgs';
   static const String practicesMethodologies = '/practices/methodologies';
   static const String participate = '/participate';
+  static const String events = '/events';
 }
 
 const kExperiments = bool.fromEnvironment('experiments', defaultValue: false);
@@ -32,15 +33,16 @@ const appMenu = [
     ],
     'Practices',
   ),
+  AppMenuItem([AppRoutes.events], 'Events'),
   AppMenuItem([AppRoutes.participate], 'Participate'),
 ];
 
 int menuIndexByRoute(String route) {
   final result = appMenu.indexWhere((e) => e.routes.contains(route));
   if (result == -1) {
-    throw Exception('Route $route not found in appMenu');
+    debugPrint('Add $route to appMenu');
   }
-  return result;
+  return 0;
 }
 
 void push(String route, BuildContext context) {

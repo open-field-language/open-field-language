@@ -48,9 +48,9 @@ traumatic energy streams.
 
 More about constellations:
 
-[bu ISCA](https://isca-network.org/systemic-constellations/what-is-a-constellation/)
-[by Misba Shah](https://instituteofclinicalhypnosis.com/psychotherapy-coaching/systemic-family-constellation/)
-[Mark Wolynn](https://www.eomega.org/article/rewire-your-life-force-with-family-constellations)
+* [by ISCA](https://isca-network.org/systemic-constellations/what-is-a-constellation/)
+* [by Misba Shah](https://instituteofclinicalhypnosis.com/psychotherapy-coaching/systemic-family-constellation/)
+* [by Mark Wolynn](https://www.eomega.org/article/rewire-your-life-force-with-family-constellations)
 
 ''',
   PracticesTab.people: '''
