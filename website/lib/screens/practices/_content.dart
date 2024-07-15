@@ -26,7 +26,28 @@ const tabText = {
   PracticesTab.methodologies: '''
 ## Field therapy
 
-## Constellations
+The therapist:
+
+1. Provides their energy body to increase the client's capacity
+to process traumatic energy streams.
+2. Uses their attention to unblock movement in the traumatized
+areas of client's energy body.
+
+As result, the blocked traumatic energy streams, both personal and ancestral,
+get processed and released.
+
+## Family/Systematic/Organizational Constellations
+
+Constellations work the same way as field therapy,
+but in a group setting. The facilitator orchestrates energy bodies
+and attention of the entire group to unblock and process the client's
+traumatic energy streams.
+
+More about constellations:
+
+[bu ISCA](https://isca-network.org/systemic-constellations/what-is-a-constellation/)
+[by Misba Shah](https://instituteofclinicalhypnosis.com/psychotherapy-coaching/systemic-family-constellation/)
+[Mark Wolynn](https://www.eomega.org/article/rewire-your-life-force-with-family-constellations)
 
 ''',
   PracticesTab.people: '''
