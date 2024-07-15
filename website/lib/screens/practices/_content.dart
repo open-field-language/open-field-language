@@ -26,7 +26,7 @@ const tabText = {
   PracticesTab.methodologies: '''
 ## Field therapy
 
-The therapist:
+To exploit the properties of the field for healing, the therapist:
 
 1. Provides their energy body to increase the client's capacity
 to process traumatic energy streams.
@@ -35,6 +35,9 @@ areas of client's energy body.
 
 As result, the blocked traumatic energy streams, both personal and ancestral,
 get processed and released.
+
+This mechanism is included explicitly or implicitly into
+big variety of therapeutic methodologies.
 
 ## Family/Systematic/Organizational Constellations
 

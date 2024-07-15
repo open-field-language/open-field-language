@@ -12,10 +12,8 @@ There is a number of options to participate.
 
 To add a practice to [the list](${AppMarkdown.redirect(AppRoutes.practicesPeople)}),
 either request it in [the telegram channel](${AppLinks.telegram}) or create
-[an issue](${AppLinks.issuePractices}) or open [pull request](${AppLinks.pullRequest}).
-
-Provide name, public representation, channel to contact you directly,
-and who you are (1-2 lines).
+[an issue](${AppLinks.issuePractices}) or
+[suggest an edit](https://github.com/open-field-language/open-field-language/blob/main/website/lib/screens/practices/_content.dart).
 
 ## Subscribe
 
