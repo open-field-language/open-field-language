@@ -3,7 +3,6 @@ import '../../shared/bricks/fab.dart';
 import '../../shared/bricks/layout.dart';
 import '../../shared/framework/app_structure.dart';
 
-import '../../shared/bricks/image.dart';
 import '../../shared/bricks/text.dart';
 import '../../shared/framework/screen.dart';
 import '_content.dart';
@@ -15,24 +14,19 @@ class _Screen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        Wrap(
-          crossAxisAlignment: WrapCrossAlignment.center,
-          alignment: WrapAlignment.center,
-          children: [
-            AppColumn(child: AppMarkdown(text1)),
-            AppImage(280, 'images/home/lavender.jpg'),
-          ],
-        ),
-        AppColumn(child: AppMarkdown(text2)),
-        SizedBox(height: 30),
-        Fab(
-          callback: () => push(AppRoutes.practicesPeople, context),
-          label: 'Check out Practices',
-        ),
-      ],
+    return AppColumn(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          AppMarkdown('$headerText'),
+          Fab(
+            callback: () => push(AppRoutes.participate, context),
+            label: 'Add an Event',
+          ),
+          SizedBox(height: 20),
+          AppMarkdown('There are no future events registered.'),
+        ],
+      ),
     );
   }
 }

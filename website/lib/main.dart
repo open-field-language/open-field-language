@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ofl_web/shared/framework/app_structure.dart';
 
+import 'screens/events/events.dart';
 import 'screens/participate/participate.dart';
 import 'shared/design/theme.dart';
 import 'screens/home/home.dart';

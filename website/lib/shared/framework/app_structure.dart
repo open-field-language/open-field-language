@@ -41,8 +41,9 @@ int menuIndexByRoute(String route) {
   final result = appMenu.indexWhere((e) => e.routes.contains(route));
   if (result == -1) {
     debugPrint('Add $route to appMenu');
+    return 0;
   }
-  return 0;
+  return result;
 }
 
 void push(String route, BuildContext context) {
