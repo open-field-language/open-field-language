@@ -17,8 +17,9 @@ enum PracticesTab {
 final headerText = '''
 # Field-Aware Practices (the list is forming)
 
-This is the list of methodologies, practitioners and organizations, which explicitly
-rely on the concept of [the field](${AppMarkdown.redirect(AppRoutes.home)}).
+This is the list of methodologies, practitioners and organizations, which
+rely on the concept of [the field](${AppMarkdown.redirect(AppRoutes.home)}),
+aiming to heal by releasing blocked energy streams.
 ''';
 
 const tabText = {
@@ -59,8 +60,9 @@ some artists rely on the phenomena of the field consciously in their work.
   PracticesTab.people: '''
 * [Elena Veselago](https://constellationintensive.com/elena-veselago/), director of Open Field Institute
 * [Gaurav Deka](https://www.drgauravdeka.com/), systemic constellation facilitator, therapist
+* [Maria Nefedeva](https://www.marianefedyeva.com/), UX designer
+* [Maxim Komissarchik](https://fineartamerica.com/profiles/maxim-komissarchik?tab=artworkgalleries), artist
 * [Polina Cherkasova](http://polina-c.com), engineer, field practitioner and researcher
-* [Maxim Komissarchik](https://fineartamerica.com/profiles/maxim-komissarchik), artist
 * [Rupert Sheldrake](https://www.sheldrake.org/), biologist, author of the theory of morphic fields
 * [Taya Shopen](https://www.facebook.com/taya.shopen), systemic constellation facilitator,
 the author of [Earthybirth](https://earthybirth.com/) swaddling ceremony, the practitioner of image-emotions therapy

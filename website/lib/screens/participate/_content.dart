@@ -19,14 +19,20 @@ either request it in [the telegram channel](${AppLinks.telegram}) or create
 
 To add an an event to [the list](${AppMarkdown.redirect(AppRoutes.events)}):
 
-1. [Submit](https://www.paypal.com/ncp/payment/RU9FZGSJRBS6E) a payment (without picture \$18, with picture: \$44).
-2. [Telegram](https://t.me/polina_314159) the following information:
+1. Reference a page of this website in the event description or on your website.
+For example:
+* the healing happens by releasing blocked [energy streams](${AppMarkdown.redirect(AppRoutes.home)})
+* read more how constellations work [here](${AppMarkdown.redirect(AppRoutes.practicesMethodologies)})
+
+2. [Submit](https://www.paypal.com/ncp/payment/RU9FZGSJRBS6E) a payment (without picture \$18, with picture: \$44).
+3. [Telegram](https://t.me/polina_314159) the following information:
     - Link to the event
+    - Link where this website is referenced
     - Picture (if selected)
     - Event language
     - Date, time and place
     - Proof of payment
-3. Expect the request to be processed within 2 business days.
+4. Expect the request to be processed within 2 business days.
 
 ## Subscribe
 
