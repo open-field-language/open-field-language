@@ -26,9 +26,11 @@ class AppMarkdown extends StatelessWidget {
   const AppMarkdown(
     this.content, {
     super.key,
+    this.padding = const EdgeInsets.all(16.0),
   });
 
   final String content;
+  final EdgeInsets padding;
 
   static const _inAppRedirectSign = '#';
 
@@ -45,6 +47,7 @@ class AppMarkdown extends StatelessWidget {
       physics: ScrollPhysics(), // To prevent scroll on drag in mobile Safary.
       data: content,
       shrinkWrap: true,
+      padding: padding,
 
       onTapLink: (text, url, title) async {
         if (url == null) return;

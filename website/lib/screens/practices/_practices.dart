@@ -136,7 +136,7 @@ the author of [Earthybirth](https://earthybirth.com/) swaddling ceremony, the pr
   PracticesTabs.organizations: '''
 * [Constellation Intensive (in Russian)](https://constellations.ru/)
 * [Convivium Constellations](https://www.conviviumconstellations.com/)
-* [Family Constellations (Australia)](https://familyconstellations.com.au/)
+* [Family Constellations, (in Australia)](https://familyconstellations.com.au/)
 * [Faust Family Constellations](https://www.faustfamilyconstellations.com/)
 * [International Association for Systemic Constellations (ISCA)](https://isca-network.org)
 * [Open Field Institute (in Russian)](https://openfield.ru/)

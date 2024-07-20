@@ -8,7 +8,7 @@ class AppColors {
   static const link = Colors.blueAccent;
   static const accent = Colors.cyan;
   static final tabSecondary = Colors.cyan.shade200;
-  static final card = tabSecondary;
+  static final card = Colors.cyan.shade100;
   static final bottom = const Color.fromARGB(255, 235, 253, 255);
   static const background = Colors.white;
   static final subLine = Colors.amber.shade900;
