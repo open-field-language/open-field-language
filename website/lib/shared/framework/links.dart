@@ -1,3 +1,5 @@
+import '../bricks/lang.dart';
+
 /// AppLinks class contains all external links.
 class AppLinks {
   static const discussion =
@@ -11,18 +13,11 @@ class AppLinks {
   static const telegram = 'https://t.me/+ePJC11fh5JJhYTUx';
 }
 
-enum Lang {
-  english('English'),
-  russian('Russian'),
-  ;
+// class Link {
+//   final String link;
+//   final String text;
 
-  final String name;
+//   Link({required this.text, required this.link});
+// }
 
-  const Lang(this.name);
-}
 
-enum EventType {
-  travel,
-  education,
-  constellations,
-}

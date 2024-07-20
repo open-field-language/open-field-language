@@ -10,15 +10,15 @@ import '../../shared/design/theme.dart';
 import '../../shared/framework/screen.dart';
 
 final practicesMethodologiesScreen =
-    AppScreen((_) => const _Screen(PracticesTab.methodologies));
-final practicesScreen = AppScreen((_) => const _Screen(PracticesTab.people));
+    AppScreen((_) => const _Screen(PracticesTabs.methodologies));
+final practicesScreen = AppScreen((_) => const _Screen(PracticesTabs.people));
 final practicesOrgsScreen =
-    AppScreen((_) => const _Screen(PracticesTab.organizations));
+    AppScreen((_) => const _Screen(PracticesTabs.organizations));
 
 class _Screen extends StatefulWidget {
   const _Screen(this.tab);
 
-  final PracticesTab tab;
+  final PracticesTabs tab;
 
   @override
   State<_Screen> createState() => _ScreenState();
@@ -31,12 +31,14 @@ class _ScreenState extends State<_Screen> with SingleTickerProviderStateMixin {
   void initState() {
     super.initState();
     _controller =
-        TabController(length: PracticesTab.values.length, vsync: this);
-    _controller.index = PracticesTab.values.indexOf(widget.tab);
+        TabController(length: PracticesTabs.values.length, vsync: this);
+    _controller.index = PracticesTabs.values.indexOf(widget.tab);
   }
 
   @override
   Widget build(BuildContext context) {
+    final tab = PracticesTabs.values[_controller.index];
+
     return AppColumn(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -51,12 +53,12 @@ class _ScreenState extends State<_Screen> with SingleTickerProviderStateMixin {
             indicatorColor: AppColors.tabSecondary,
             controller: _controller,
             onTap: (value) {
-              final tab = PracticesTab.values[value];
+              final tab = PracticesTabs.values[value];
               push(tab.route, context);
             },
-            tabs: PracticesTab.values.map((t) => Tab(text: t.name)).toList(),
+            tabs: PracticesTabs.values.map((t) => Tab(text: t.name)).toList(),
           ),
-          AppMarkdown(tabText[PracticesTab.values[_controller.index]]!),
+          tab.builder(context),
         ],
       ),
     );

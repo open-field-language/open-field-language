@@ -1,7 +1,8 @@
 import 'package:ofl_web/shared/bricks/text.dart';
 import 'package:ofl_web/shared/framework/app_structure.dart';
 
-import '../../shared/framework/enums.dart';
+import '../../shared/bricks/lang.dart';
+import '../../shared/framework/links.dart';
 
 final headerText = '''
 # Events
@@ -11,54 +12,53 @@ with the [field-aware practices](${AppMarkdown.redirect(AppRoutes.home)}).
 
 ''';
 
-class FieldEvent {
-  final DateTime start;
-  final DateTime end;
-  final Lang lang;
-  final String link;
-  final String location;
-  final String name;
-  final EventType type;
-
-  FieldEvent({
-    required this.name,
-    required this.start,
-    required this.end,
-    required this.lang,
-    required this.link,
-    required this.location,
-    required this.type,
-  });
+enum EventType {
+  travel,
+  education,
+  constellation,
 }
 
-final events = [
-  FieldEvent(
-    name: 'Треккинг в регионе Анапурны. Хребет Кхопра Данда',
-    start: DateTime(2025, 5, 5),
-    end: DateTime(2022, 5, 16),
-    lang: Lang.russian,
-    link:
-        'https://www.ursatravel.com/tour/trekking-v-regione-anapurny-xrebet-kxopra-danda/',
-    location: 'Nepal',
-    type: EventType.travel,
-  ),
-  FieldEvent(
-    name: 'Баха Калифорния – большой аквариум Северной Америки',
-    start: DateTime(2025, 3, 1),
-    end: DateTime(2025, 3, 7),
-    lang: Lang.russian,
-    link:
-        'https://www.ursatravel.com/tour/baxa-kaliforniya-bolshoj-akvarium-severnoj-ameriki/',
-    location: 'Mexico',
-    type: EventType.travel,
-  ),
-  FieldEvent(
-    name: '',
-    start: DateTime(2025, 3, 1),
-    end: DateTime(2025, 3, 7),
-    lang: Lang.russian,
-    link: '',
-    location: 'Mexico',
-    type: EventType.travel,
-  ),
-];
+// class FieldEvent {
+//   final Map<Lang, Link> name;
+//   final DateTime start;
+//   final DateTime end;
+//   final String location;
+//   final EventType type;
+
+//   FieldEvent({
+//     required this.name,
+//     required this.start,
+//     required this.end,
+//     required this.location,
+//     required this.type,
+//   });
+// }
+
+// final events = [
+//   FieldEvent(
+//     name: {
+//       Lang.ru: Link(
+//         text: 'Треккинг в регионе Анапурны. Хребет Кхопра Данда',
+//         link:
+//             'https://www.ursatravel.com/tour/trekking-v-regione-anapurny-xrebet-kxopra-danda/',
+//       ),
+//     },
+//     start: DateTime(2025, 5, 5),
+//     end: DateTime(2022, 5, 16),
+//     location: 'Nepal',
+//     type: EventType.travel,
+//   ),
+//   FieldEvent(
+//     name: {
+//       Lang.ru: Link(
+//         text: 'Баха Калифорния – большой аквариум Северной Америки',
+//         link:
+//             'https://www.ursatravel.com/tour/baxa-kaliforniya-bolshoj-akvarium-severnoj-ameriki/',
+//       ),
+//     },
+//     start: DateTime(2025, 3, 1),
+//     end: DateTime(2025, 3, 7),
+//     location: 'Mexico',
+//     type: EventType.travel,
+//   ),
+// ];
