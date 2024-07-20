@@ -1,4 +1,36 @@
+import 'package:flutter/material.dart';
+
+import '../../shared/bricks/card.dart';
 import '../../shared/bricks/lang.dart';
+
+class People extends StatelessWidget {
+  const People({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: _people.map((p) => _PersonCard(p)).toList(),
+    );
+  }
+}
+
+class _PersonCard extends StatelessWidget {
+  const _PersonCard(this.person);
+
+  final _Person person;
+
+  @override
+  Widget build(BuildContext context) {
+    return AppCard(
+      child: Container(
+        width: 500,
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
+        padding: EdgeInsets.all(20),
+        child: _PersonCard(person),
+      ),
+    );
+  }
+}
 
 class _Person {
   final Map<Lang, String> links;

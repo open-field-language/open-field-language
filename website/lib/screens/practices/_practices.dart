@@ -2,6 +2,7 @@ import 'package:flutter/widgets.dart';
 import 'package:ofl_web/shared/bricks/text.dart';
 
 import '../../shared/framework/app_structure.dart';
+import '_people.dart';
 
 enum PracticesTabs {
   methodologies(
@@ -37,7 +38,7 @@ aiming to heal by releasing blocked energy streams.
 ''';
 
 Widget _people(BuildContext context) {
-  return Placeholder();
+  return People();
 }
 
 Widget _organizations(BuildContext context) => AppMarkdown('''
