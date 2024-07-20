@@ -3,7 +3,7 @@ import '../../shared/bricks/layout.dart';
 
 import '../../shared/bricks/text.dart';
 import '../../shared/framework/screen.dart';
-import '_content.dart';
+import '_participate.dart';
 
 final participateScreen = AppScreen((_) => const _Screen());
 

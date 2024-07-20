@@ -58,14 +58,15 @@ While every piece of art transforms us both through the field and traditionally 
 some artists rely on the phenomena of the field consciously in their work.
 ''',
   PracticesTab.people: '''
-* [Elena Veselago](https://constellationintensive.com/elena-veselago/), director of Open Field Institute
-* [Gaurav Deka](https://www.drgauravdeka.com/), systemic constellation facilitator, therapist
-* [Maria Nefedeva](https://www.marianefedyeva.com/), UX designer
-* [Maxim Komissarchik](https://fineartamerica.com/profiles/maxim-komissarchik?tab=artworkgalleries), artist
-* [Polina Cherkasova](http://polina-c.com), engineer, field practitioner and researcher
-* [Rupert Sheldrake](https://www.sheldrake.org/), biologist, author of the theory of morphic fields
+* [Elena Veselago](https://constellationintensive.com/elena-veselago/), director of Open Field Institute, language: Russian
+* [Gaurav Deka](https://www.drgauravdeka.com/), systemic constellation facilitator, therapist, language: English
+* [Katya Altman](https://www.ursatravel.com/) tour organizer and guide to the places of power and shrines of the Earth. Owner of a travel boutique, language: Russian
+* [Maria Nefedeva](https://www.marianefedyeva.com/), UX designer, language: English
+* [Maxim Komissarchik](https://fineartamerica.com/profiles/maxim-komissarchik?tab=artworkgalleries), artist, language: English
+* [Polina Cherkasova](http://polina-c.com), engineer, field practitioner and researcher, language: English
+* [Rupert Sheldrake](https://www.sheldrake.org/), biologist, author of the theory of morphic fields, language: English
 * [Taya Shopen](https://www.facebook.com/taya.shopen), systemic constellation facilitator,
-the author of [Earthybirth](https://earthybirth.com/) swaddling ceremony, the practitioner of image-emotions therapy
+the author of [Earthybirth](https://earthybirth.com/) swaddling ceremony, the practitioner of image-emotions therapy, language: English, Russian
 ''',
   PracticesTab.organizations: '''
 * [Constellation Intensive (in Russian)](https://constellations.ru/)

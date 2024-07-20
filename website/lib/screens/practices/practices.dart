@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ofl_web/screens/practices/_content.dart';
+import 'package:ofl_web/screens/practices/_practices.dart';
 import 'package:ofl_web/shared/framework/app_structure.dart';
 import '../../shared/bricks/fab.dart';
 import '../../shared/bricks/layout.dart';

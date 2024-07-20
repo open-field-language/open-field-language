@@ -6,7 +6,7 @@ import '../../shared/framework/app_structure.dart';
 import '../../shared/bricks/image.dart';
 import '../../shared/bricks/text.dart';
 import '../../shared/framework/screen.dart';
-import '_content.dart';
+import '_home.dart';
 
 late final homeScreen = AppScreen((_) => const _Screen());
 

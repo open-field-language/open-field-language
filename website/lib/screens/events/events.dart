@@ -5,7 +5,7 @@ import '../../shared/framework/app_structure.dart';
 
 import '../../shared/bricks/text.dart';
 import '../../shared/framework/screen.dart';
-import '_content.dart';
+import '_events.dart';
 
 late final eventsScreen = AppScreen((_) => const _Screen());
 

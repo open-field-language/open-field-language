@@ -1,4 +1,4 @@
-import 'package:ofl_web/shared/framework/links.dart';
+import 'package:ofl_web/shared/framework/enums.dart';
 
 import '../../shared/bricks/text.dart';
 import '../../shared/framework/app_structure.dart';
