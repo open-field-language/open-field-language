@@ -9,28 +9,26 @@ class People extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: _people.map((p) => _PersonCard(p)).toList(),
-    );
+    return AppMarkdown(_people.map((p) => '* ${p.md()}').join('\n\n'));
   }
 }
 
-class _PersonCard extends StatelessWidget {
-  const _PersonCard(this.person);
+// class _PersonCard extends StatelessWidget {
+//   const _PersonCard(this.person);
 
-  final _Person person;
+//   final _Person person;
 
-  @override
-  Widget build(BuildContext context) {
-    return AppCard(
-      child: Container(
-        width: 600,
-        padding: EdgeInsets.all(5),
-        child: AppMarkdown(person.md()),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context) {
+//     return AppCard(
+//       child: Container(
+//         width: 600,
+//         padding: EdgeInsets.all(5),
+//         child: AppMarkdown(person.md()),
+//       ),
+//     );
+//   }
+// }
 
 class _Person {
   final Map<Lang, String> links;
@@ -57,6 +55,12 @@ final _people = [
     '**Gaurav Deka**, systemic constellation facilitator, therapist.',
     {
       Lang.en: 'https://www.drgauravdeka.com/',
+    },
+  ),
+  _Person(
+    '**Judith Hemming**,  founder of MovingConstellations and a former director of the nowherefoundation.',
+    {
+      Lang.en: 'http://www.movingconstellations.com/judith-hemming/',
     },
   ),
   _Person(
